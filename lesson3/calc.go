@@ -6,6 +6,7 @@ import (
 	"os"
 )
 
+//task3
 
 func calc(a, b float64, op string) float64 {
 	switch op {
