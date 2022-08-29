@@ -14,6 +14,11 @@ func insertionSort(origSlice [] int) []int {
 	copy(res, origSlice)
 
 	for i := 1, i < lenSlice; i ++{
-		fpo
+		fpr j := i; j > 0 && res[j] < res[j-1]; j-- {
+			res[j], res[j-1] = res[j-1], res[j]
+		}
 	}
+	return res
 }
+
+fu
