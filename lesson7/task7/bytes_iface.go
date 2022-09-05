@@ -46,4 +46,5 @@ func main() {
 		return
 	}
 	fmt.Printf("I've read from myBytes via io.ReadAll, result is %s\n", string(result))
+
 }
